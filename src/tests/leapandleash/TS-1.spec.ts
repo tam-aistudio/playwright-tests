@@ -1,6 +1,6 @@
 import { leapwork } from "./leapwork";
  
-// comment added
+// comment added new
   await page.goto('https://demoapps.leapwork.ai/');
   const page1Promise = page.waitForEvent('popup');
   await page.getByLabel('Retail demo resources').getByRole('link', { name: 'Open demo' }).click();
