@@ -3,3 +3,4 @@
 await page.goto('google.com');
 
 // updating the comment.
+await page.goto('microsoft.com');
