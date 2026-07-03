@@ -23,3 +23,6 @@ import { leapwork } from "./leapwork";
   await page1.getByRole('button', { name: 'Place order' }).click();
   await page1.getByRole('button', { name: 'Back to home' }).click();
 
+// fom play
+
+await page.goto('google.com');
