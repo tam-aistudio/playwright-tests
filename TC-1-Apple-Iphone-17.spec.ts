@@ -22,7 +22,7 @@ await leapwork.step("Click the iPhone link in Apple’s global navigation.", asy
 await leapwork.step("Click the iPhone 17 Pro link in the iPhone family navigation.", async () => {
     // Click link "iPhone 17 Pro"
     await page.getByLabel('iPhone family').getByRole('link', { name: 'iPhone 17 Pro' }).click();
-}, { action: "click", relativeXpath: ".//div/div/div/ul/li[1]/a" });
+}, { action: "click", relativeXpath: ".//div/div/div/ul/li[1]/a" }, enableSelfHeal: false);
 
 // ai-studio-step-id: OoK9YJVZ
 await leapwork.step("Click the Buy button for iPhone 17 Pro 񟿿", async () => {
