@@ -11,7 +11,7 @@ leapwork.configuration({
     (leapwork.team.settings.get("enableSelfHeal")
       ?? leapwork.workspace.settings.get("enableSelfHeal")) !== "false",
 });
-
+// comment
 // ai-studio-step-id: SISi5pu8
 await leapwork.step("Click the iPhone link in Apple’s global navigation.", async () => {
     // Click span
