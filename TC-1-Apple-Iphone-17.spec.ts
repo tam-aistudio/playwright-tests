@@ -16,7 +16,7 @@ leapwork.configuration({
 await leapwork.step("Click the iPhone link in Apple’s global navigation.", async () => {
     // Click span
     await page.getByLabel('iPhone', { exact: true }).click();
-}, { action: "click", relativeXpath: ".//div/div[4]/ul/li[1]/a[@aria-label=\"iPhone\"]/span[1]" });
+}, { action: "click", relativeXpath: ".//div/div[4]/ul/li[1]/a[@aria-label=\"iPhone\"]/span[1]" ,enableSelfHeal: false});
 
 // ai-studio-step-id: CXD9Wcnh
 await leapwork.step("Click the iPhone 17 Pro link in the iPhone family navigation.", async () => {
