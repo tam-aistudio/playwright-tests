@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-23T12:22:21.716Z",
+  "repo": {
+    "connectorId": 19,
+    "repoSlug": "tam-aistudio/playwright-tests",
+    "baseBranch": "feat/leapwork-play"
+  },
+  "team": {
+    "assetId": 326,
+    "displayId": "TM-1",
+    "name": "New team"
+  },
+  "tree": [
+    {
+      "assetId": 337,
+      "displayId": "TC-1",
+      "name": "Apple-Iphone 17",
+      "kind": "test-case",
+      "repoPath": "TC-1-Apple-Iphone-17.spec.ts"
+    },
+    {
+      "assetId": 339,
+      "displayId": "AG-1",
+      "name": "New agent",
+      "kind": "agent",
+      "repoPath": "AG-1-New-agent.agent.json"
+    },
+    {
+      "assetId": 338,
+      "displayId": "TS-1",
+      "name": "New typescript",
+      "kind": "typescript",
+      "repoPath": "TS-1-New-typescript.ts"
+    }
+  ],
+  "files": [
+    {
+      "assetId": 339,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "New agent",
+      "repoPath": "AG-1-New-agent.agent.json",
+      "parentAssetId": 326
+    },
+    {
+      "assetId": 337,
+      "assetKind": "test-case",
+      "displayId": "TC-1",
+      "name": "Apple-Iphone 17",
+      "repoPath": "TC-1-Apple-Iphone-17.spec.ts",
+      "parentAssetId": 326
+    },
+    {
+      "assetId": 338,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "New typescript",
+      "repoPath": "TS-1-New-typescript.ts",
+      "parentAssetId": 326
+    }
+  ]
+}
