@@ -1,7 +1,7 @@
 import { leapwork } from "./leapwork";
 
 import { NewTypescript } from "@assets/New typescript";
-
+// hello new comment
 leapwork.configuration({
   timeoutMs: Number(
     leapwork.team.settings.get("timeoutMs")
