@@ -1,7 +1,10 @@
 import { leapwork } from "./leapwork";
 
+//unused import
 import { NewTypescript } from "@assets/New typescript";
 // hello new comment
+// file referenced 
+const newFile1 = leapwork.files.path('FL-1');
 leapwork.configuration({
   timeoutMs: Number(
     leapwork.team.settings.get("timeoutMs")

@@ -1,4 +1,4 @@
 {
   "agent_definition": "Send me an email whenever a runlist fails more than 2 times in a day.\n",
-  "typescript_code": "console.log('this is a typescript from agent asset');"
+  "typescript_code": "import { readFileSync } from \"fs\";\n\nconst data = JSON.parse(readFileSync(\"data.json\", \"utf-8\"));\n\nconst randomObject = data[Math.floor(Math.random() * data.length)];\n\nconsole.log(randomObject);"
 }
