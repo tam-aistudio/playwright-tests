@@ -25,7 +25,7 @@ await leapwork.step("Click the iPhone 17 Pro link in the iPhone family navigatio
 }, { action: "click", relativeXpath: ".//div/div/div/ul/li[1]/a", enableSelfHeal: false });
 
 // ai-studio-step-id: OoK9YJVZ
-await leapwork.step("Click the Buy button for iPhone 17 Pro 񟿿", async () => {
+await leapwork.step("Click the Buy button for iPhone 17 Pro", async () => {
     // Click link "Buy, iPhone 17 Pro"
     await page.locator('section').filter({ hasText: 'iPhone 17 Pro Buy From $1099' }).getByLabel('Buy, iPhone 17 Pro').click();
 }, { action: "click", relativeXpath: "//*[@id=\"main\"]/section[1]/div[2]/div[2]/div/a[@aria-label=\"Buy, iPhone 17 Pro\"]" });
