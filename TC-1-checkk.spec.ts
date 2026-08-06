@@ -9,3 +9,6 @@ leapwork.configuration({
     (leapwork.team.settings.get("enableSelfHeal")
       ?? leapwork.workspace.settings.get("enableSelfHeal")) !== "false",
 });
+
+
+// commit from github
