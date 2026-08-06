@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T16:33:48.345Z",
+  "generatedAt": "2026-08-06T16:42:16.770Z",
   "repo": {
     "connectorId": 267,
     "repoSlug": "tam-aistudio/playwright-tests",
@@ -18,6 +18,13 @@
       "name": "checkk",
       "kind": "test-case",
       "repoPath": "TC-1-checkk.spec.ts"
+    },
+    {
+      "assetId": 28055,
+      "displayId": "TS-1",
+      "name": "new asset ts",
+      "kind": "typescript",
+      "repoPath": "TS-1-new-asset-ts.ts"
     }
   ],
   "files": [
@@ -27,6 +34,14 @@
       "displayId": "TC-1",
       "name": "checkk",
       "repoPath": "TC-1-checkk.spec.ts",
+      "parentAssetId": 28053
+    },
+    {
+      "assetId": 28055,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "new asset ts",
+      "repoPath": "TS-1-new-asset-ts.ts",
       "parentAssetId": 28053
     }
   ]
